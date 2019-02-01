@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>material templates - search</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="js/faker.en_US.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/search.css" /></head>
+
+<body class="mdc-typography">
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+                <div class="mdc-text-field mdc-text-field--with-leading-icon">
+                     <i class="material-icons mdc-text-field__icon">search</i>
+                    <input type="text" id="fulltext__enter-search-term" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="fulltext__enter-search-term">Enter search term</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-select" id="cat-select">
+                    <input type="hidden" name="enhanced-select">
+                    <i class="mdc-select__dropdown-icon"></i>
+                    <div class="mdc-select__selected-text" role="button" aria-haspopup="listbox"
+                        aria-labelledby="label selected-text"></div>
+                    <div class="mdc-select__menu mdc-menu mdc-menu-surface" role="listbox">
+                        <ul class="mdc-list">
+                            <li class="mdc-list-item mdc-list-item--selected" data-value="" role="option"></li>
+                            <li class="mdc-list-item" data-value="Awards" role="option">
+                                Awards
+                            </li>
+                            <li class="mdc-list-item" data-value="Contacts" role="option">
+                                Contacts
+                            </li>
+                            <li class="mdc-list-item" data-value="Delivery Notes" role="option">
+                                Delivery Notes
+                            </li>
+                            <li class="mdc-list-item" data-value="Projects" role="option">
+                                Projects
+                            </li>
+                            <li class="mdc-list-item" data-value="Invoices" role="option">
+                                Invoices
+                            </li>
+                            <li class="mdc-list-item" data-value="Testimonials" role="option">
+                                Testimonials
+                            </li>
+                        </ul>
+                    </div>
+                    <span id="demo-label" class="mdc-floating-label mdc-floating-label--float-above">Category</span>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-text-field ">
+                    
+                    <input type="text" id="01__firstname" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="01__firstname">Firstname</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-text-field ">
+                    
+                    <input type="text" id="02__lastname" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="02__lastname">Lastname</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-text-field mdc-text-field--with-leading-icon">
+                     <i class="material-icons mdc-text-field__icon">location_on</i>
+                    <input type="text" id="03__street" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="03__street">Street</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-text-field mdc-text-field--with-leading-icon">
+                     <i class="material-icons mdc-text-field__icon">location_city</i>
+                    <input type="text" id="04__postal-code" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="04__postal-code">Postal Code</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-text-field ">
+                    
+                    <input type="text" id="05__city" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="05__city">City</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+                <p id="05-t5pshyog8__city-helper-text" class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">
+                    e.g. Gescher
+                </p>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-text-field mdc-text-field--with-leading-icon">
+                     <i class="material-icons mdc-text-field__icon">local_phone</i>
+                    <input type="text" id="06__phone" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="06__phone">Phone</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+                <p id="06-fg4r0oua4__phone-helper-text" class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">
+                    e.g. +49-1234-567890
+                </p>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-text-field mdc-text-field--with-leading-icon">
+                     <i class="material-icons mdc-text-field__icon">event</i>
+                    <input type="text" id="07__birthday" class="mdc-text-field__input">
+                    <label class="mdc-floating-label" for="07__birthday">Birthday</label>
+                    <div class="mdc-line-ripple"></div>
+                </div>
+                <p id="07-77z3vkbyl__birthday-helper-text" class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">
+                    e.g. 06/20/1978
+                </p>
+            </div>
+        </div>
+        <div class="dmc-form__actions">
+            <button type="button" class="mdc-button" id="clear">Clear</button>
+            <button type="button" class="mdc-button" id="show-results">Show Results</button>
+        </div>
+    </div>
+    <script async src="js/search.js"></script>
+</body>
+
+</html>

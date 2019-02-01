@@ -1,0 +1,34 @@
+.mdc-list-item__graphic.fas {
+  font-size: 32px; }
+
+.mdc-top-app-bar--fixed.dmc-top-app-bar--fixed {
+  color: #333;
+  background-color: #fff; }
+  .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item,
+  .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon {
+    color: #333; }
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item::before, .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item::after,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon::before,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon::after {
+      background-color: #333; }
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item:hover::before,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon:hover::before {
+      opacity: 0.04; }
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item:not(.mdc-ripple-upgraded):focus::before, .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item.mdc-ripple-upgraded--background-focused::before,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon:not(.mdc-ripple-upgraded):focus::before,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon.mdc-ripple-upgraded--background-focused::before {
+      transition-duration: 75ms;
+      opacity: 0.12; }
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item:not(.mdc-ripple-upgraded)::after,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon:not(.mdc-ripple-upgraded)::after {
+      transition: opacity 150ms linear; }
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item:not(.mdc-ripple-upgraded):active::after,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon:not(.mdc-ripple-upgraded):active::after {
+      transition-duration: 75ms;
+      opacity: 0.16; }
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__action-item.mdc-ripple-upgraded,
+    .mdc-top-app-bar--fixed.dmc-top-app-bar--fixed .mdc-top-app-bar__navigation-icon.mdc-ripple-upgraded {
+      --mdc-ripple-fg-opacity: 0.16; }
+
+.dmc-list-item__graphic {
+  margin-right: 16px; }
