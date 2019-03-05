@@ -1,3 +1,10 @@
+# [0.0.2] - 2019-03-05
+## Added
+- Open Source Attribution inside README
+
+## Fixed
+- Misspelling in README
+
 # [0.0.1] - 2019-02-01
 ## Added
 - Overview page to display available templates

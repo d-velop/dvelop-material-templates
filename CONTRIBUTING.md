@@ -54,7 +54,7 @@ When filing an issue, make sure to answer the following questions:
 
 Please be aware of the following notes prior to opening a pull request:
 
-1.  This project is released under the license specified in [LICENCE](LICENCE).
+1.  This project is released under the license specified in [LICENSE](LICENSE).
     Any code you submit will be released under that license. Furthermore it's likely
     that we have to reject code which depends on third party code which isn't compatible
     to the aforementioned license.

@@ -1,6 +1,6 @@
 # d.velop material templates
 
-You'll find some useful templates and inspiring code snippets to create awesome resources [d.velop cloud](https://www.d-velop.de/cloud/) using [Google's Material Design](https://www.material.io) language.
+You'll find some useful templates and inspiring code snippets to create awesome resources for [d.velop cloud](https://www.d-velop.de/cloud/) using [Google's Material Design](https://www.material.io) language.
 
 The project has beta status. **So for now expect things to change.** 
 
@@ -24,7 +24,7 @@ the [releases on this repository](https://github.com/d-velop/dvelop-material-tem
 
 ## License
 
-Please read [LICENCE](LICENCE) for licensing information.
+Please read [LICENSE](LICENSE) for licensing information.
 
 ## Acknowledgments
 
@@ -33,3 +33,7 @@ Thanks to the following projects for inspiration
 * [Starting an Open Source Project](https://opensource.guide/starting-a-project/)
 * [README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * [CONTRIBUTING template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md)
+
+## Open Source Attribution
+We take this opportunity to thank these other communities, companies and individual developers for their hard work.
+- [faker.js](https://github.com/marak/Faker.js/)
